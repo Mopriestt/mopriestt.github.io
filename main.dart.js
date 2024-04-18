@@ -40759,7 +40759,7 @@ case 7:m=b
 k=m
 A.rH("restart DST result: "+A.ae5(A.adh(k.e).c.a.h(0,"charset")).el(k.w))
 k=m
-if(A.ae5(A.adh(k.e).c.a.h(0,"charset")).el(k.w)!=="Success!"){q=!1
+if(!B.d.p(A.ae5(A.adh(k.e).c.a.h(0,"charset")).el(k.w),"Success!")){q=!1
 s=1
 break}p=2
 s=6
@@ -40791,7 +40791,7 @@ case 7:m=b
 k=m
 A.rH("restart DST Cave result: "+A.ae5(A.adh(k.e).c.a.h(0,"charset")).el(k.w))
 k=m
-if(A.ae5(A.adh(k.e).c.a.h(0,"charset")).el(k.w)!=="Success!"){q=!1
+if(!B.d.p(A.ae5(A.adh(k.e).c.a.h(0,"charset")).el(k.w),"Success!")){q=!1
 s=1
 break}p=2
 s=6
@@ -40827,7 +40827,7 @@ $1(a){return B.I4},
 $S:318}
 A.nl.prototype={
 am(){var s=t.N
-return new A.Oh(new A.IJ(B.xe,$.ai()),new A.V4(A.fI("https://dst-ctrl.makazeu.com/systemd/v1"),A.av(["X-Secret","MakazeuRocks!","Content-Type","application/json","Access-Control-Allow-Origin","*"],s,s)),B.k)}}
+return new A.Oh(new A.IJ(B.xe,$.ai()),new A.V4(A.fI("https://dst-ctrl.makazeu.com/systemd/v1"),A.av(["X-Secret","MakazeuRocks!","Content-Type","application/json","Access-Control-Allow-Methods","POST,GET,DELETE,PUT,OPTIONS","Access-Control-Allow-Origin","*","Access-Control-Allow-Headers","Origin, X-Requested-With, Content-Type, Accept"],s,s)),B.k)}}
 A.Oh.prototype={
 J(a){var s=this,r=null,q=A.akj(r,r,r,r,r,r,r,r,!0,r,r,r,r,r,s.f,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,"Room password",r,r,r,r,r,r,r,r,r,r,r,r,r),p=t.F
 q=A.b([B.NR,B.JK,new A.xS(s.d,q,B.Kn,!0,B.JM,B.JN,!0,r)],p)
